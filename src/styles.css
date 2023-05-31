@@ -1,14 +1,14 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 90px;
-    background: rgb(221, 221, 221);
+    background: #ece9e2;
 }
 
 .box {
-    background-color: #55688A;
+    background-color: #d5c8af;
     margin: 0 auto;
     max-width: 550px;
-    color: #fff;
+    color: #2a1f02;
     border-radius: 20px;
     padding: 15px;
     display: block;
@@ -66,28 +66,28 @@ h1{
 
 .units{
     font-size: 15px;
-    color: #fff;
+    color: #2a1f02;
     position: relative;
     top: -36px;
     left: -20px;
 }
 
 .box-today .active{
-    color: #fff;
+    color: #2a1f02;
     text-decoration: none;
     cursor: default;
 }
 
 .box-today .active:hover{
     text-decoration: none;
-    color: #fff;
+    color: #2a1f02;
 }
 
 .day-week{
     
     border-radius: 10px;
     margin: 3px;
-    background: #7B89A4;
+    background: #bda67d;
     padding: 5px 15px;
     font-size: 14px;
     margin-top: 15px;
@@ -96,17 +96,19 @@ h1{
 
 .signature{
     max-width: 600px;
-    margin: 0 auto;
+    margin: 10px 0 -10px 5px;
     font-size: small;
 }
 
 
 .link{
     text-decoration: none;
+    color: #157347;
 }
 
 .link:hover{
     text-decoration: underline;
+    color: #157347;
 }
 
 .weather-forecast-temperarure-min{
@@ -114,7 +116,7 @@ h1{
 }
 
 .active {
-  color: #fff;
+  color: #2a1f02;
   text-decoration: none;
   cursor: default;
   pointer-events: none;
@@ -129,9 +131,16 @@ h1{
     text-transform: capitalize;
 }
 
-#fahrenheit-link{
+#celsius-link{
     text-decoration: none;
 }
-#fahrenheit-link:hover{
+#celsius-link:hover{
     text-decoration: underline;
+}
+
+#fahrenheit-link{
+    text-decoration: none; 
+}
+#fahrenheit-link:hover{
+    text-decoration: underline; 
 }
